@@ -4,11 +4,12 @@
 
 .login-container {
   /* min-width: 330px; */
-  min-width: 25%;
+  min-width: 28%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 30px;
 }
 
 .login-title {
@@ -48,6 +49,7 @@
   text-decoration: underline;
 }
 
-.backgroung {
+.background img {
   height: 100%;
+  width: 100%;
 }
