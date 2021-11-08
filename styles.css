@@ -39,6 +39,10 @@ img {
   border: none;
 }
 
+header .btn-success {
+  width: 90px;
+}
+
 .margin {
   margin: 0 50px;
 }
