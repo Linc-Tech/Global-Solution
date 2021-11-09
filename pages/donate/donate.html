@@ -15,7 +15,8 @@
       <div class="header-first-section">
         <!-- <img src="./assests/logo.png" class="logo" alt="Linc Tech Logo"/> -->
         <a href="../../index.html">
-          <p class="title">AlimenteseBem</p>
+          <!-- <p class="title">AlimenteseBem</p> -->
+          <p class="title">ONGsUnidas</p>
         </a>
       </div>
       <div class="header-second-section">
@@ -61,7 +62,7 @@
 
         <div class="ong-section-bottom">
           <div id="btn-donate">
-            <a href="#" class="btn btn-success">Doar</a>
+            <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Doar</a>
           </div>
 
           <div class="donates">
@@ -100,7 +101,7 @@
       </div>
 
       <div class="ong-second-section">
-        <img src="../../assests/login-image.jpg" alt="">
+        <img src="../../assests/login-image2.jpg" alt="">
       </div>
     </div>
 
@@ -128,7 +129,7 @@
       </div>
 
       <div class="ong-second-section">
-        <img src="../../assests/login-image.jpg" alt="">
+        <img src="../../assests/login-image3.jpg" alt="">
       </div>
     </div>
 
@@ -156,9 +157,83 @@
       </div>
 
       <div class="ong-second-section">
-        <img src="../../assests/login-image.jpg" alt="">
+        <img src="../../assests/login-image4.jpg" alt="">
       </div>
     </div>
   </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ong-colums">
+            <div class="ong-modal-header">
+              <h4>DOA FÁCIL</h4>
+              <div>
+                <a href="#">www.emily_thalita_enchem_o_saco.com.br</a>
+              </div>
+              <p>CNPJ</p>
+            </div>
+
+            <div class="ong-modal-footer">
+              <p class="ong-modal-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna ex. Consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna ex. Consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna ex. Consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna ex. Consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna ex. Consectetur adipiscing elit.
+              </p>
+              <div>
+                <p class="bank-title">Banco do Bradesco</p>
+                <div class="bank-data">
+                  <div>
+                    <p>Agência</p>
+                    <p>2334-6</p>
+                  </div>
+                  <div>
+                    <p>Agência</p>
+                    <p>2334-6</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ong-colums">
+            <div>
+              <img src="../../assests/login-image.jpg" alt="ONG Image" class="" />
+            </div>
+            <form class="row g-3 ong-form">
+              <div class="col-auto">
+                <label for="donatorCpf" class="form-label">CPF</label>
+                <input type="number" class="form-control" id="donatorCpf">
+              </div>
+              <div class="col-auto">
+                <label for="donatorName" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="donatorName">
+              </div>
+              <div class="col-auto">
+                <label for="donatorEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="donatorEmail">
+              </div>
+              <div class="col-auto">
+                <label for="donationValue" class="form-label">Valor</label>
+                <input type="number" class="form-control" id="donationValue">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-success">Confirmar doação</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-success">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
