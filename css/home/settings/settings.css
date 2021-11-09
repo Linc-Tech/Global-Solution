@@ -1,0 +1,16 @@
+.settings-container {
+  margin-top: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-delete {
+  margin-right: 20px;
+}
+
+button.btn-registration {
+  margin-bottom: 0;
+}
